@@ -13,7 +13,7 @@ first = word[0]
 
 #Making sure work was entered and is alpha
 if len(original) > 0 and original.isalpha():
-    print original
+    print word
 else:
     print 'empty'
     
