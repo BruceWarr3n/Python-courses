@@ -56,13 +56,9 @@ def rpsls(player_choice): #Defining the function to run the game.
     
     #Determining the winner...
     diff = (comp_number - player_number) % 5
-    if diff == 1:
-        print "Computer wins!"
-    elif diff == 2:
-        print "Computer wins!"    
-    elif diff == 3:
-        print "Player wins!"
-    elif diff == 4:
+    if diff == 1 or diff == 2:
+        print "Computer wins!"  
+    elif diff == 3 or diff == 4:
         print "Player wins!"
     elif diff == 0:
         print "Tie!"
